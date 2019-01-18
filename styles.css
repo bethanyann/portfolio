@@ -133,24 +133,14 @@ and then use object-fit: cover to make the img cover its entire container*/
 		color: white;
 	}
 
-	footer{
-	display: flex;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background-color: pink;
-}
-
-.footer-nav {
-	display: flex;
-	margin: 0 auto;
-	width: auto;
-}
-
-.footer-nav li {
-	text-align: center;
-	list-style-type: none;
-}
+	.footer-nav {
+		display: flex;
+		justify-content: space-between;
+		padding-bottom: 0;
+		height: 60px;
+		align-items: center;
+		font-size: 1em;
+	}
 }
 
 @media screen and (min-width: 1400px){
